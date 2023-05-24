@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.div {
+  color: black; /* Set default color for the sentence */
+}
+.div:first-child,
+.div:first-child + span,
+.div:last-child,
+.div:last-child - span
+{
+color: red; /* Set the color for the first two and last two words */
+}
